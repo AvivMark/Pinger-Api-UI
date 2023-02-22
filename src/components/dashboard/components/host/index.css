@@ -1,0 +1,18 @@
+.hostBox {
+    box-shadow: 3px 6px 10px #14005b;
+    /* width: 200px ; */
+    border: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 5px;
+}
+#ip {
+    text-align: right;
+    display: inline;
+    margin: 10px;
+}
+
+#hostname{
+    margin-left: 3px;
+    text-align: left;
+    display: inline;
+}
