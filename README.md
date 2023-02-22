@@ -1,3 +1,3 @@
-# Dashboard for project pinger-api-go
+# Dashboard for project Pinger-Api
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
