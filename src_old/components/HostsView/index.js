@@ -29,7 +29,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 
-const API_URL = '/hostsAvailable';
+const API_URL = '/getGroups';
 
 function HostsView() {
   const [data, setData] = useState([]);

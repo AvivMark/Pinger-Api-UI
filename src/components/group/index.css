@@ -1,11 +1,13 @@
 .group{
     font-family: Geneva, Verdana, sans-serif;
+    flex: auto;
     display: inline-block;
     margin: 5px;
     padding: auto;
     border-radius: 10px;
     width: 15em;
-    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.356);
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.356);
+    vertical-align: top;
 }
 .groupHeader {
     text-align: center;
