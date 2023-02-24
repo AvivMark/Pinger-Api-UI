@@ -1,0 +1,36 @@
+.container{
+    height: 1.2em;
+    padding: 4px 5px;
+    margin: 1px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    color: #E0E1E7;
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    white-space: nowrap;
+    width: 95%;
+
+}
+
+#hostname {
+  margin-right: 0px;
+  margin-left: 1px;
+  text-align: left;
+  width: 45%;
+  display: inline-block;
+}
+
+#IP {
+  width: 20%;
+  text-align: right;
+  margin-left: 0;
+  margin-right: auto;
+  padding-right: 5px;
+  float: right;
+  direction: rtl;
+}
+
+.container:hover {
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.356);
+}

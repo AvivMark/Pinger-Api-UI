@@ -1,0 +1,16 @@
+.group{
+    font-family: Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 5px;
+    padding: auto;
+    border-radius: 10px;
+    width: 15em;
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.356);
+}
+.groupHeader {
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    color: #ffffff;
+    font-family: Geneva, Verdana, sans-serif;
+}

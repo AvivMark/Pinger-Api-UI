@@ -1,10 +1,13 @@
-import './App.css';
-import Dashboard from './components/dashboard';
 import React from 'react';
-function App() {
-  return (
-    <Dashboard></Dashboard>
-  );
+import GroupsManager from './components/groupsManager';
+function App(){
+    return(
+        <div>
+            <div>
+                <GroupsManager></GroupsManager>
+            </div>
+            <p>Bottom From App</p>
+        </div>
+    );
 }
-
 export default App;
