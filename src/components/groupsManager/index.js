@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import Group from '../group';
 
-const API_URL = 'http://localhost:5000/getGroups'
+const API_URL = "http://localhost:5000/getGroups"
 class GroupsManager extends React.Component {
     constructor(props) {
         super(props);
