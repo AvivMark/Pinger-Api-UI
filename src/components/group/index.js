@@ -23,7 +23,7 @@ class Group extends React.Component {
     }
 
     loadData() {
-        fetch('http://localhost:5000/getGroupAvailable/'+this.props.groupName)
+        fetch('/getGroupAvailable/'+this.props.groupName)
           .then(response => response.json())
           .then(data => {
             this.setState({ hosts: data, error: null });
