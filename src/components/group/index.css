@@ -1,11 +1,9 @@
 .group{
     font-family: Geneva, Verdana, sans-serif;
-    flex: auto;
     display: inline-block;
-    margin: 5px;
-    padding: auto;
+    margin: 0.3em;
     border-radius: 10px;
-    width: 15em;
+    width: 15.8em;
     box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.356);
     vertical-align: top;
 }

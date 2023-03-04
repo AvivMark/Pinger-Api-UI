@@ -11,7 +11,7 @@ class Host extends React.Component {
     }
     render(){
         return(
-            <div className='container' style={{backgroundColor: this.props.alive ? "#0FCA54":"#D65365", color: "#22272E"}}>
+            <div className='container' style={{backgroundColor: this.props.alive ? "#078032":"#d42139"}}>
                 <div id='hostname'>{this.state.Hostname}</div> <div id='IP'>{this.state.ipAddress}</div>        
             </div>
         )
