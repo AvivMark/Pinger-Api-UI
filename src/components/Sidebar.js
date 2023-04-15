@@ -33,17 +33,20 @@ const StyledNavItem = styled.div`
   }
 `;
 
+
 class NavItem extends React.Component {
     handleClick = () => {
         const { path, onItemClick } = this.props;
         onItemClick(path);
       }
-
+    
+    
+    
     render() {
         const { active } = this.props;
       return (
         <StyledNavItem active={active}>
-        <Link to={this.props.path} className={this.props.css} onClick={this.handleClick}>
+        <Link to={this.props.path} className={this.props.css} onClick={this.handleClick}>      
         <NavIcon></NavIcon>
         </Link>
         </StyledNavItem>
@@ -86,7 +89,8 @@ class SideNav extends React.Component {
       render() {
         const { items, activePath } = this.state;
         return (
-          <StyledSideNav>
+          
+          <StyledSideNav>  
             {
               /* items = just array AND map() loops thru that array AND item is param of that loop */
               items.map((item) => {
